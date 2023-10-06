@@ -51,4 +51,7 @@ We also discussed constraints and non-functional requirements. For constraints, 
 
 For non-functional requirements, this product should be compatible with all mainstream operating systems.
 
-Our deliverables for the meeting next week include completion of the Functionality section of the requirements document, and addition of the use-case diagram.
+Our deliverables for the meeting next week include completion of the Functionality section of the requirements document, and addition of the use-case diagram.  
+
+**Meeting 10/11/2023**  
+

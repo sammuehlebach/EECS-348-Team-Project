@@ -1,5 +1,4 @@
-# **Meeting Logs**
-**Meeting 09/20/23**
+# **Meeting 09/20/23**
 
 Time: 09/20/23 at 6:00 PM (CT)  
 Place: Virtual (Via Microsoft Teams)  
@@ -26,7 +25,7 @@ Josh also created a Word Document to collect the profiles of each team member, i
 Basic planning was discussed in regard to the completion of the Project Management Plan. While all parties will contribute to its completion, Josh and Sam will focus on completing the remaining sections of the plan. The Configuration Management Engineer will ensure that the plan is formatted uniformly and will add it to the GitHub repo.  
 
     
-**Meeting 09/27/2023**
+# **Meeting 09/27/2023**
 
 Time: 09/27/23 at 6:00 PM (CT)  
 Place: Virtual (Via Microsoft Teams)  
@@ -36,7 +35,7 @@ We decided as a team to postpone working on the software requirements specificat
   
 Sam and Josh are going to look through the requirements documents (section 1 and 2) and get started on the basics, but are going to wait until our next meeting where everyone is in attendance to make significant updates.
 
-**Meeting 10/04/2023**
+# **Meeting 10/04/2023**
 
 Time: 10/04/23 at 6:00 PM (CT)  
 Place: Virtual (Via Microsoft Teams) and in-person  
@@ -53,5 +52,5 @@ For non-functional requirements, this product should be compatible with all main
 
 Our deliverables for the meeting next week include completion of the Functionality section of the requirements document, and addition of the use-case diagram.  
 
-**Meeting 10/11/2023**  
+# **Meeting 10/11/2023**  
 

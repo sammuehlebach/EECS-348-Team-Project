@@ -29,7 +29,7 @@ Basic planning was discussed in regard to the completion of the Project Manageme
 
 Time: 09/27/23 at 6:00 PM (CT)  
 Place: Virtual (Via Microsoft Teams)  
-Attendance: Josh, Jennifer, Mark, Basim  
+Attendance: Josh, Jennifer, Mark, Basim, Sam
 Purpose: Work on extra credit question, decide next steps.  
 We decided as a team to postpone working on the software requirements specification since the requirements engineer was unable to attend. Instead, we collaborated on the extra credit question.  
   

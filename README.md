@@ -66,8 +66,13 @@ Our deliverables for the meeting next week include completion of the Functionali
 
 # **Meeting 10/11/2023** 
 
-Time: 10/04/23 at 6:00 PM (CT)  
+Time: 10/11/23 at 6:00 PM (CT)  
 Place: Virtual (Via Microsoft Teams) and in-person  
-Attendance: Josh, Jennifer, Mark, Sam, Jawad  
-Purpose: Continue working on the requirements document.  
+Attendance: Mark, Sam, Josh, Jennifer   
+Purpose: Continue working on the requirements document. 
 
+Looking through the requirements document, we decided to remove the optional variable declaration function from the project.  We decided that using this function would necessiate an additional command line prompt for the user to enter the information, and be difficult to code. Josh built the use case diagram previously, and we added that to the requirements document.  We also changed factorial from optional to desirable.     
+
+We made updates to section 1, added some items to the glossary, and worked on formatting.  We decided to wait until Friday to post the completed requirements document in order to give our requirements engineer (Jawad) time to review it.  
+
+For next week's meeting, we will brainstorm ideas for design and go over the next part of the project assignment.  

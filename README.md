@@ -54,3 +54,9 @@ For non-functional requirements, this product should be compatible with all main
 Our deliverables for the meeting next week include completion of the Functionality section of the requirements document, and addition of the use-case diagram.  
 
 # **Meeting 10/11/2023** 
+
+Time: 10/04/23 at 6:00 PM (CT)  
+Place: Virtual (Via Microsoft Teams) and in-person  
+Attendance: Josh, Jennifer, Mark, Sam, Jawad  
+Purpose: Continue working on the requirements document.  
+

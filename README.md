@@ -1,3 +1,87 @@
+# **Team Member Profiles/Availability**
+**Josh Welicky**  
+Contact Information: joshuawelicky@ku.edu  
+Availability:  
+- Monday: 1:00 PM – 9:00 PM  
+- Wednesday: 3:00 PM – 9:00 PM  
+- Friday: 10:30 AM – 9:00 PM  
+- Saturday: Anytime
+
+Coursework: Programming I (EECS 169), Programming II (EECS 268), Introduction to Digital Logic and Design (EECS 140). Enrolled in Software Engineering I (EECS 348) and Discrete Structures (EECS 210). 
+
+ 
+
+
+
+  
+**Mark Kitchin**  
+Contact Information: mkitchin@ku.edu   
+Availability: 
+- Monday: 10:00 AM-2:00 PM 
+- Wednesday: 3:00 PM-7:00 PM 
+- Friday: 10:00 AM-7:00 PM   
+
+Coursework: EECS 168, EECS 268, EECS 140. Enrolled in EECS 210, EECS 348, EECS 388 
+
+ 
+
+ 
+
+**Jennifer Aber**   
+Contact Information: j670j007@ku.edu   
+Availability:   
+- Monday: all day via Teams 
+- Tuesday: 11 am – 1:30 pm, on campus 
+- Wednesday: 12:00 pm – 1:00 pm, on campus, 4:00 – 8:00 PM via Teams 
+- Thursday:  11 am – 1:30 pm, on campus 
+- Friday: all day, via Teams 
+- Saturday/Sunday: varies   
+
+Coursework: Programming I, Programming II, Introduction to Digital Logic and Design (EECS 140). Embedded Systems, Theory of Computing, Data Structures, Programming Language Paradigms, Discrete Structures, Object-Oriented Programming in C++ (JCCC), UNIX Scripting and Utilities (JCCC)   
+2 years (past) work experience as a Technical Writer for Cerner.   
+
+ 
+
+**Sam Muehlebach**   
+Contact Information: sam.muehlebach@ku.edu   
+Availability:   
+- Monday: 12:00PM-2:00PM 
+- Tuesday: 12:30PM-2:30PM, 4:00-7:00PM 
+- Wednesday: 4:00 PM-7:00 PM 
+- Thursday: 12:30PM-2:30PM, 4:00-5:00PM 
+- Friday: 12:00PM-2PM 
+- Sunday: Anytime
+ 
+Coursework: EECS 168, EECS 268, EECS 140. EECS 210. Enrolled in EECS 510, EECS 348, EECS 388, EECS 330, EECS 468 
+
+ 
+
+**Basim Waqee Arshad**   
+Contact Information: baswaqee@ku.edu   
+Availability:   
+- Wednesday 11:00AM-10:00PM   
+- Thursday 6:00PM-10:00PM   
+- Friday 2:30PM-10:00PM   
+- Sunday 6:00PM-10:00PM   
+
+Coursework: EECS 140, EECS 168, EECS 268. Enrolled in EECS 210, EECS 348, EECS 388 
+
+ 
+
+ 
+
+**Jawad Ahsan**    
+Contact Information: j.ahsan02@ku.edu   
+Availability:   
+- Wednesday 6:00AM-08:00PM   
+- Thursday 6:00PM-08:00PM   
+- Friday 12:45PM – 01:50PM   
+
+Coursework: EECS 140, EECS 168, EECS 268, EECS 210. Enrolled in EECS 510, EECS 348, EECS 388, EECS 330. 
+
+
+
+
 # **Meeting 09/20/23**
 
 Time: 09/20/23 at 6:00 PM (CT)  

@@ -108,16 +108,7 @@ Two vision statements were brainstormed for the project: "To make all students' 
 Josh also created a Word Document to collect the profiles of each team member, including their availability and expertise. Profiles for Josh, Jennifer, and Mark were completed during the meeting.
 Basic planning was discussed in regard to the completion of the Project Management Plan. While all parties will contribute to its completion, Josh and Sam will focus on completing the remaining sections of the plan. The Configuration Management Engineer will ensure that the plan is formatted uniformly and will add it to the GitHub repo.  
 
-We updated our profile document to include availabilities:
-
-Mark:  Monday: 10:00 AM-2:00 PM, Wednesday: 3:00 PM-7:00 PM, Friday: 10:00 AM-7:00 PM 
-Sam:  Monday: 12:00PM-2:00PM, Tuesday: 12:30PM-2:30PM, 4:00-7:00PM, Wednesday: 4:00 PM-7:00 PM, Thursday: 12:30PM-2:30PM, 4:00-5:00PM 
-Friday: 12:00PM-2PM, Sunday: Anytime 
-Josh:  Monday: 1:00 PM – 9:00 PM, Wednesday: 3:00 PM – 9:00 PM, Friday: 10:30 AM – 9:00 PM, Saturday: Anytime 
-Basim:  Wednesday 11:00AM-10:00PM, Thursday 6:00PM-10:00PM, Friday 2:30PM-10:00PM, Sunday 6:00PM-10:00PM 
-Jawad:  Wednesday 6:00AM-08:00PM, Thursday 6:00PM-08:00PM, Friday 12:45PM – 01:50PM 
-Jennifer:  Monday: all day via Teams, Tuesday: 11 am – 1:30 pm, on campus, Wednesday: 12:00 pm – 1:00 pm, on campus,  
-4:00 – 8:00 PM via Teams,  Thursday:  11 am – 1:30 pm, on campus, Friday: all day, via Teams, Saturday/Sunday: varies 
+We updated our profile document to include availabilities.
 
     
 # **Meeting 09/27/2023**

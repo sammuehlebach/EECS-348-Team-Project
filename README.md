@@ -166,3 +166,5 @@ The "nodes" on the stack would be arithmetic expressions.
 Discussed libraries that we might import: cmath, etc.  
 Possibly create a Driver class that runs the program.  
 Imports an Arithmetic class--stores all code for the arithmetic operations.
+
+We decided to wait until the design document is posted to begin the coding piece. We will plan on working on the class diagram at the next meeting.  

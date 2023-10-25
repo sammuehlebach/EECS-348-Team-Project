@@ -161,7 +161,7 @@ Purpose: Go over the first steps of the design of the project.
 
 Went over ideas for implementation execution. Decided that we would keep the "pure code" in a separate save file to prevent any difficulties with merging GitHub branches.  
 
-Decided to implement a Stack over a Tree or queue.  
+Decided to use a Stack over a Tree or queue.  
 The "nodes" on the stack would be arithmetic expressions.
 Discussed libraries that we might import: cmath, etc.  
 Possibly create a Driver class that runs the program.  

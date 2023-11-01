@@ -177,6 +177,7 @@ Attendance: Sam, Josh, Jennifer, Basim, Jawad, Mark
 Purpose: Begin work on the architecture document
 
 We decided to begin with discussion of section 3 of fhe document, architectural goals and constraints.  We discussed the use of stack and vector classes to accomplish the needed functionality.  We decided to start working on class diagrams that we can reference in section 5 of the document and that can also be used in coding.  
+
 Josh started a document listing out the classes - we settled on Vector, Stack, and Driver class. Josh, Sam, and Jennifer listed out some rough attributes and methods for each class.  We decided to include operations such as tokenize, convert to postfix, and evaluate in the driver class.  This functionality will be included outside of the main().  There was some discussion of whether to use float or int, and for now we settled on using int with the possibility of returning float with the division function.  Once we have added the class diagrams, we will update the document to include a description of each class and rationale for use.  
 
 We will get clarification on what is required for the architecture document from lecture before making our final updates.  Next week's meeting we will complete the document and get it ready to submit.  We will also discuss what needs to be done in terms of coding and how to divide this portion.  The coding portion will be done individually, with input from others when needed.  

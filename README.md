@@ -182,4 +182,19 @@ Josh started a document listing out the classes - we settled on Vector, Stack, a
 
 We will get clarification on what is required for the architecture document from lecture before making our final updates.  Next week's meeting we will complete the document and get it ready to submit.  We will also discuss what needs to be done in terms of coding and how to divide this portion.  The coding portion will be done individually, with input from others when needed.  
 
+# **Meeting 11/8/2023**
+
+Time:  11/8/23 at 3:00 PM (CT)  
+Place: Virtual (Via Microsoft Teams) and in-person
+Attendance: Sam, Josh, Jennifer, Basim, Jawad, Mark 
+Purpose: Complete work on the architecture document and divide coding work 
+
+We started with discussion of section 5.2 of the architecture document.  There were some questions about specific methods outlined in the section on Vectors, namely the copy constructor and move constructor and how they function.  There was also some discussion of whether to use a Node-based implementation or a Vector-based implementation.  We also discussed whether to use templatized classes for Vector and Stack, and decided to do so.  We also discussed using integer vs. float, and decided to use float.  We will divide the project into four sections:  Stack, Vector, Arithmetic, and Driver.  The Driver class contains the main() function, which takes user input, as well as Parse and InfixtoPostfix.  The Arithmetic function contains solve, and returns a result.
+
+Jennifer will code Stack and Vector, as well as parse (tokenize), which will be updated in Git by Sunday so other team members can begin their work. Jawad, Sam, and Basim will handle the arithmetic portion of coding.  Josh will handle the driver and the makefile, and Mark will work on error handling. We also discussed pull request in Git, but decided that everyone will have their own branch.  We will upload our code to our own branch.  Sam will keep track of when main gets updated, and keep a master version on his own PC.  
+
+We will meet next week at 6:00 PM on Teams to discuss our updates.  
+
+
+
 

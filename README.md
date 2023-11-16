@@ -198,9 +198,9 @@ We will meet next week at 6:00 PM on Teams to discuss our updates.
 # **Meeting 11/15/2023**
 
 Time: 11/15/23 at 6:00 PM (CT)
-Place: Virtual (Via Microsoft Teams) 
-Attendance: Josh, Jennifer, Jawad, Mark, Basim 
-Purpose: Discuss remaining work that needs to be done on the project
+Place: Virtual (Via Microsoft Teams)
+Attendance:  Josh, Jennifer, Basim, Jawad, Mark
+Purpose: Review code and discuss next steps
 
 We started with discussion of the code, Josh has updated the driver file, and Sam has made changes to the Arithmetic file. Josh went through each commented function, and discussed what each one did and how. We also discussed test cases, which Mark will be handling. Other participants will add test cases as needed. There was some discussion of whether to cast doubles as int by default in the modulo function, or throw a message letting the user know the function does not accept floats. We thought that allowing floats could cause an innacurate result. We also decided to not use a makefile, since that would require the implementation to be included in a separate .cpp file for each header file. For this program, the user will need to type in the command line: g++ -o calculator (or other alias) Driver.cpp. For the user experience, we would include the necessary files in a zip document.
 

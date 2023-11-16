@@ -170,7 +170,6 @@ public:
     // remove the last data element from the array
     void pop_back()
     {
-        
         --theSize;
 
     }

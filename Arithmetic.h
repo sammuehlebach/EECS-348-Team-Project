@@ -1,3 +1,8 @@
+// Arithmetic.h
+// EECS 348
+// Fall 2023
+// Sam Muehlebach, Josh Welicky, Jennifer Aber, Jawad Ahsan, Basim Arshad, Mark Kitchin
+
 #include <stdexcept> //header for exception classes (new addition not mentioned in documents)
 #include <cmath> //Header for math functions in C++
 
@@ -54,17 +59,16 @@ public:
     }
     //method for division
     T divide() {
-        if (operand2 == 0)
-            throw "Division by zero is not allowed.";
+        if (operand2 == 0) //checks if operand2 is a 0
+            throw "Division by zero is not allowed."; //if so, throws an error indicating that zero division is not allowed
         return operand1 / operand2; //returns the quotient of operand1 and operand2
     }
     //method for modulo
     T modulo() {
-        if constexpr (std::is_integral<T>::value) { //checks if type T is an integral type
-            return operand1 % operand2; //if so, performs modulo
+        if (operand1 - int(operand1) != 0 || operand2 - int(operand2) != 0) { //Checks if operand1 and operand2 are not integers
+            throw "Doesn't accept floats"; //if so, throws an error
         } else {
-            return static_cast<int>(operand1) % static_cast<int>(operand2);
-            //otherwise it casts the operands to ints and performs modulo
+            return int(operand1) % int(operand2); //otherwise, performs modulo on the two operands
         }
     }
     //method for exponentation
@@ -72,8 +76,8 @@ public:
         return pow(operand1,operand2); //returns the result of taking the first
         //operand to the power of the second
     }
-
+    //method for retrieving the result
     T getResult() const {
-    return result;
+        return result; //returns the calculated result
     }
 };

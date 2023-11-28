@@ -65,6 +65,9 @@ public:
     }
     //method for modulo
     T modulo() {
+        if (operand2 == 0) {
+            throw "Modulo by 0 not allowed";
+        } 
         if (operand1 - int(operand1) != 0 || operand2 - int(operand2) != 0) { //Checks if operand1 and operand2 are not integers
             throw "Doesn't accept floats"; //if so, throws an error
         } else {

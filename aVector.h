@@ -10,11 +10,11 @@
 #include <utility>
 #include <vector>
 
-//aVector.h uses a template, since each Vector can store various types of objects (i.e. double, char)
-//theStack.h inherits from Vector.h.
+// aVector.h uses a template, since each Vector can store various types of objects (i.e. double, char).
+// theStack.h inherits from Vector.h.
 
-//The Vector class is used by several methods in the Arithmetic class to store and 
-//access operators and operands.  
+// The Vector class is used by several methods in the Arithmetic class to store and 
+// access operators and operands.  
 template <typename DataType>
 class MyVector {
 protected:
@@ -50,7 +50,7 @@ public:
     }  
 
     // move constructor - works with std::move
-   // creates a copy of rhs (right-hand side) and deletes the original.  
+    // Creates a copy of rhs (right-hand side) and deletes the original.  
     MyVector(MyVector&& rhs) :
         theSize{ rhs.theSize },
         theCapacity{ rhs.theCapacity },
@@ -70,8 +70,8 @@ public:
    
 
     // changes the size of the array
-    //If a vector object is created with a size greater than the default capacity, the resize function
-    //doubles the capacity via the reserve function (see below) and sets the size = newSize
+    // If a vector object is created with a size greater than the default capacity, the resize function
+    // doubles the capacity via the reserve function (see below) and sets the size = newSize.
     void resize(int newSize) {
         if (newSize > theCapacity)
             reserve(newSize * 2);
@@ -102,8 +102,8 @@ public:
 
     }
 
-    //operator overload - allows access of elements in the vector by index.
-    //because data is a protected attribute, this allows member clases (such as Stack) to access the data
+    // operator overload - allows access of elements in the vector by index.
+    // Because data is a protected attribute, this allows member clases (such as Stack) to access the data.
     const DataType& operator[](int index) const
     {
         
@@ -112,7 +112,7 @@ public:
     }
 
 
-    // check if the vector is empty; return TRUE if the vector is empty
+    // Check if the vector is empty; return TRUE if the vector is empty.
     bool empty() const
     {
        

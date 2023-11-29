@@ -5,12 +5,7 @@
 // Sam Muehlebach, Josh Welicky, Jennifer Aber, Jawad Ahsan, Basim Arshad, Mark Kitchin
 
 #include <iostream>
-//#include <iomanip>
-//#include <vector>
-//#include <fstream>
 #include <string>
-
-//#include "infixcalc.h"
 #include "theStack.h"
 #include "aVector.h"
 #include "Arithmetic.h"
@@ -25,7 +20,6 @@ public:
 private:
     string user_input;
     int operatorPrec(const char);
-    bool isValidParenthesis(const char);
     bool isDigit(const char);
     void parse(const std::string&, MyVector<std::string>&);
     void evaluate(MyVector<std::string>&);
@@ -55,20 +49,6 @@ int Driver::operatorPrec(const char c)
             return 0;
         default:
             return -1;
-    }
-}
-
-// checks for parentheses in the input.  
-bool Driver::isValidParenthesis(const char c)
-{
-    switch (c)
-    {
-        case '(':
-            return true;
-        case ')':
-            return true;
-        default:
-            return false;
     }
 }
 

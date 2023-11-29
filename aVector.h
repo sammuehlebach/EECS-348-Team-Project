@@ -16,8 +16,7 @@
 //The Vector class is used by several methods in the Arithmetic class to store and 
 //access operators and operands.  
 template <typename DataType>
-class MyVector
-{
+class MyVector {
 protected:
     /* data */
     int theSize;     // the number of data elements the vector currently holds
@@ -35,9 +34,7 @@ public:
         theSize{ initSize },
         theCapacity{ initSize + SPARE_CAPACITY }
     {
-        
         data = new DataType[theCapacity];
-
     }  // END Default Constructor
 
     // copy constructor - i.e. MyVector copy = oldVector
@@ -47,11 +44,9 @@ public:
         theSize{ rhs.theSize },
         theCapacity{ rhs.theCapacity }
     {  
-
         data = new DataType[theCapacity];
         for (int i = 0; i < theSize; ++i)
         data[i] = rhs.data[i];
-
     }  
 
     // move constructor - works with std::move
@@ -61,35 +56,27 @@ public:
         theCapacity{ rhs.theCapacity },
         data{ rhs.data }
     {
-
         rhs.data = nullptr;
         rhs.theSize = 0;
         rhs.theCapacity = 0;
-
     }
 
 
     // destructor
-    ~MyVector() 
-    {
-
+    ~MyVector() {
         delete[] data;
-
-    };
+    }
 
    
 
     // changes the size of the array
     //If a vector object is created with a size greater than the default capacity, the resize function
     //doubles the capacity via the reserve function (see below) and sets the size = newSize
-    void resize(int newSize)
-    {
-        
+    void resize(int newSize) {
         if (newSize > theCapacity)
             reserve(newSize * 2);
 
         theSize = newSize;
-
     }
 
     // The reserve function creates a pointer to a new, empty array of size newCapacity used 

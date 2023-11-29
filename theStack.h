@@ -16,13 +16,11 @@
 // on the top of the stack are removed using pop().  The top of the stack is the most recently added element.
 
 template <typename DataType>
-class MyStack : private MyVector<DataType>
-{
+class MyStack : private MyVector<DataType> {
 public:
 
     // default constructor 
-    explicit MyStack(int initSize = 0) :MyVector<DataType>{ initSize }
-    {
+    explicit MyStack(int initSize = 0) :MyVector<DataType>{ initSize } {
         //The constructors and destructors are contained in the Vector class. 
     }
 

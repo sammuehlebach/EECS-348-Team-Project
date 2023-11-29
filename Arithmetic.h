@@ -70,7 +70,8 @@ public:
         } 
         if (operand1 - int(operand1) != 0 || operand2 - int(operand2) != 0) { //Checks if operand1 and operand2 are not integers
             throw "Modulo does not accept floats."; //if so, throws an error
-        } else {
+        }
+        else {
             return int(operand1) % int(operand2); //otherwise, performs modulo on the two operands
         }
     }

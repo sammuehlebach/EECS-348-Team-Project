@@ -27,36 +27,38 @@ private:
 };
 
 
-Driver::Driver() { user_input = ""; }
+Driver::Driver() {
+    user_input = "";
+}
 
 //function to keep track of operator precedence.  Lower numbers have higher precedence. 
-int Driver::operatorPrec(const char c)
-{
-    switch (c)
-    {
-    case '^':
-        return 1;
-    case '*':
-    case '/':
-    case '%':
-        return 2;
-    case '+':
-    case '-':
-        return 3;
-    case '(':
-    case ')':
-        return 0;
-    default:
-        return -1;
+int Driver::operatorPrec(const char c) {
+    switch (c) {
+        case '^':
+            return 1;
+        case '*':
+        case '/':
+        case '%':
+            return 2;
+        case '+':
+        case '-':
+            return 3;
+        case '(':
+        case ')':
+            return 0;
+        default:
+            return -1;
     }
 }
 
 // checks if a character corresponds to a valid digit.
-bool Driver::isDigit(const char c)
-{
-    if (c >= '0' && c <= '9')
+bool Driver::isDigit(const char c) {
+    if (c >= '0' && c <= '9') {
         return true;
-    return false;
+    }
+    else {
+        return false;
+    }
 }
 
 
@@ -65,19 +67,15 @@ bool Driver::isDigit(const char c)
 //unary operators (+ or -) are tokenized with their respective numbers. In the instance where
 //a unary operator is associated with a parenthesis, it is tokenized as a binary operator. Later
 //the result of the parenthetical expression will added to or subtracted from 0.
-void Driver::parse(const std::string& s, MyVector<std::string>& tokens)
-{
+void Driver::parse(const std::string& s, MyVector<std::string>& tokens) {
     // code begins
     //each iteration, tempString will be constructed into a token, added to tokens, and reset to an empty string.
     std::string tempString = "";
 
-    for (unsigned int i = 0; i < s.length(); i++)
-    {
+    for (unsigned int i = 0; i < s.length(); i++) {
         //pushes digits onto a temporary string until an operator or space is found.
-        if (operatorPrec(s[i]) < 0)
-        {
-            while (operatorPrec(s[i]) < 0 && (i < s.length()) && s[i] != ' ')
-            {
+        if (operatorPrec(s[i]) < 0) {
+            while (operatorPrec(s[i]) < 0 && (i < s.length()) && s[i] != ' ') {
                 //Checks to make sure the character is either a digit or decimal point. If not, an exception is thrown to run().
                 if (isDigit(s[i]) || s[i] == '.') {
                     tempString = tempString + s[i];
@@ -96,12 +94,10 @@ void Driver::parse(const std::string& s, MyVector<std::string>& tokens)
 
         //If/else block that processes operators.
         //This first block processes + and -. These have the potential to be unary operators (positive/negative signs).
-        if (operatorPrec(s[i]) >= 0 && (s[i] == '+' || s[i] == '-'))
-        {
+        if (operatorPrec(s[i]) >= 0 && (s[i] == '+' || s[i] == '-')) {
             tempString = tempString + s[i];
             //This checks if a digit or decimal point is immediatey next to it. Inputs like -.75 will be permitted.
-            if ((i + 1 < s.length()) && operatorPrec(s[i + 1]) < 0)
-            {
+            if ((i + 1 < s.length()) && operatorPrec(s[i + 1]) < 0) {
                 //If there is no number immediately before it, it is a unary operator. It will be added to tempString and tokenized with its associated number.
                 if (i == 0 || (operatorPrec(s[i - 1]) >= 0 && s[i - 1] != ')'))
                     continue;
@@ -119,8 +115,7 @@ void Driver::parse(const std::string& s, MyVector<std::string>& tokens)
 
             //This covers the tokenization of the other operators except for *, which will need to be processed in special manner.
         }
-        else if (operatorPrec(s[i]) >= 0 && s[i] != '*')
-        {
+        else if (operatorPrec(s[i]) >= 0 && s[i] != '*') {
             tempString = tempString + s[i];
             tokens.push_back(tempString);
             tempString = "";
@@ -247,14 +242,11 @@ void Driver::evaluate(MyVector<std::string>& tokens) {
     int closed_parentheses = 0;
 
     //For loop iterates through every token.
-    for (int i = 0; i < tokens.size(); i++)
-    {
+    for (int i = 0; i < tokens.size(); i++) {
         //This block checks large tokens, which can only be numbers.
-        if (tokens[i].length() > 1)
-        {
+        if (tokens[i].length() > 1) {
             int decimal_points = 0;
-            for (int j = 0; j < tokens[i].length(); j++)
-            {
+            for (int j = 0; j < tokens[i].length(); j++) {
                 if (tokens[i][j] == '.')
                     decimal_points++;
             }
@@ -280,6 +272,7 @@ void Driver::evaluate(MyVector<std::string>& tokens) {
 
                 //This block checks the arithmetic operators that aren't parentheses. 
             }
+            
             else if (precedence > 0) {
 
                 //Note that +(3) is a legal input.
@@ -291,8 +284,8 @@ void Driver::evaluate(MyVector<std::string>& tokens) {
                 //Stray operators at the end of the expression are not allowed.
                 if (i + 1 == tokens.size())
                     throw "A binary operator must be followed by a number or opening parentheses.";
-
             }
+            
             else {
                 //Open parentheses are counted. In addition, they have to be preceded by either another opening parentheses or an operator, not a number.
                 if (tokens[i][0] == '(') {
@@ -388,8 +381,7 @@ void Driver::run() {
 }
 
 //Very minimal main() function, which simply creates an instance of Driver and starts the run() method.
-int main()
-{
+int main() {
     Driver driver = Driver();
     driver.run();
     return 0;

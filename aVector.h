@@ -112,7 +112,7 @@ public:
     }
 
 
-    // Check if the vector is empty; return TRUE if the vector is empty.
+    // check if the vector is empty; return TRUE if the vector is empty
     bool empty() const
     {
        

@@ -21,7 +21,7 @@ public:
 
     // default constructor 
     explicit MyStack(int initSize = 0) :MyVector<DataType>{ initSize } {
-        //The constructors and destructors are contained in the Vector class. 
+        // The constructors and destructors are contained in the Vector class. 
     }
 
     // copy constructor 

@@ -206,6 +206,13 @@ We started with discussion of the code, Josh has updated the driver file, and Sa
 
 We will do some testing during and after the Thanksgiving break. We also need to create the user manual and update some of our design documents to reflect changes in the code, and to our project timeline. There is a list of tests in Teams that Josh has posted for people to go through. If a test fails, we will update the information in Teams. On our meeting 11/29, we will discuss updating documentation and working on the user manual.
 
+# **Meeting 11/29/2023**
 
+Time: 11/29/23 at 3:00 PM (CT)
+Place: Virtual (Via Microsoft Teams) and in-person
+Attendance:  Josh, Jennifer, Basim, Jawad, Mark, Sam
+Purpose: Wrap up final steps on the project
+
+Josh and Sam worked on verbiage of the error message displayed when trying to divide by zero using the modulo function, or trying to use the modulo function with floats.  We also needed to add some detail in the functional requirements section in the software architecture document, so we worked on this.  Jennifer started working on the user manual, and Basim worked on changing the formatting of our code slightly for consistency.  Once the supporting documentation is complete, Jennifer will publish them to Git for submission.  
 
 

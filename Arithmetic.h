@@ -6,7 +6,7 @@
 #include <stdexcept> //header for exception classes (new addition not mentioned in documents)
 #include <cmath> //Header for math functions in C++
 
-//Template definition for Arithmetic
+// Template definition for Arithmetic
 template <typename T>
 class Arithmetic {
 private: //private variables
@@ -16,7 +16,7 @@ private: //private variables
     T result;
 
 public:   
-    //constructor that takes two operands and operator
+    // constructor that takes two operands and operator
     Arithmetic(T operand1, T operand2, char operation)
     : operand1(operand1), operand2(operand2), op(operation), result(0) {
         //initializes member variables
@@ -45,25 +45,25 @@ public:
                 //in exception is thrown, indicating an invalid operator
         }
     }
-    //method for addition
+    // method for addition
     T add() {
         return operand1 + operand2; //returns sum of operand1 and operand2
     }
-    //method for subtraction
+    // method for subtraction
     T subtract() {
         return operand1 - operand2; //returns difference of operand1 and operand2
     }
-    //method for multiplication
+    // method for multiplication
     T multiply() {
         return operand1 * operand2; //returns product of operand1 and operand2
     }
-    //method for division
+    // method for division
     T divide() {
         if (operand2 == 0) //checks if operand2 is a 0
             throw "Division by zero is not allowed."; //if so, throws an error indicating that zero division is not allowed
         return operand1 / operand2; //returns the quotient of operand1 and operand2
     }
-    //method for modulo
+    // method for modulo
     T modulo() {
         if (operand2 == 0) { //Checks if operand2 is a 0
             throw "Modulo by 0 is not allowed."; //If so, throws an error indicating that modulo by 0 is not allowed
@@ -75,12 +75,12 @@ public:
             return int(operand1) % int(operand2); //otherwise, performs modulo on the two operands
         }
     }
-    //method for exponentation
+    // method for exponentation
     T exponent() {
         return pow(operand1,operand2); //returns the result of taking the first
         //operand to the power of the second
     }
-    //method for retrieving the result
+    // method for retrieving the result
     T getResult() const {
         return result; //returns the calculated result
     }
